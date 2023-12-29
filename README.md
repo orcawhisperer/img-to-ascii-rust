@@ -15,7 +15,7 @@ This is a Rust program that converts an image into ASCII art.
 1. Clone the repository:
 
     ```shell
-    git clone https://github.com/iamvasanth07/repo.git
+    git clone https://github.com/iamvasanth07/img-to-ascii-rust.git
     ```
 
 2. Navigate to the project directory:

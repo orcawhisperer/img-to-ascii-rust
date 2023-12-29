@@ -47,15 +47,15 @@ fn main() {
     .unwrap();
 
     // ASCII Converstion
-    // let ascii_chars = "@%#*+=-:. "; // More chars for finer details
-    let ascii_chars = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ";
+    let ascii_chars = "@%#*+=-:. "; // More chars for finer details <$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. >
+
     let mut ascii_art = String::new();
 
     for i in 0..resized.rows() {
         for j in 0..resized.cols() {
             let pixel = resized.at_2d::<u8>(i, j).unwrap();
             let ascii_index = *pixel as usize * ascii_chars.len() / 256;
-            ascii_art.push(ascii_chars.chars().nth(ascii_index).unwrap());
+            ascii_art.push(ascii_chars.chars().nth(ascii_index).unwrap_or(' '));
         }
         ascii_art.push('\n');
     }

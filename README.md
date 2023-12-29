@@ -3,6 +3,8 @@
 
 This is a Rust program that converts an image into ASCII art.
 
+![alt text](https://github.com/iamvasanth07/img-to-ascii-rust/blob/8d7cb8098b6e60f6ce08591c055ea82e942399c8/images/RustASCII.jpg)
+
 ## Prerequisites
 
 - Rust (https://www.rust-lang.org/tools/install)

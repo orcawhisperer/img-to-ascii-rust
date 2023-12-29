@@ -1,3 +1,4 @@
+
 # img-to-ascii-rust
 
 This is a Rust program that converts an image into ASCII art.
@@ -40,7 +41,6 @@ This is a Rust program that converts an image into ASCII art.
 ## Example
 
 Suppose you have an image named 'example.jpg'. To convert it into ASCII art, you would run:
-
-    ```shell
-    cargo run --release -- example.jpg
-    ```
+```shell
+cargo run --release -- example.jpg
+```

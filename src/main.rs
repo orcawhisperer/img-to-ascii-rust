@@ -47,7 +47,8 @@ fn main() {
     .unwrap();
 
     // ASCII Converstion
-    let ascii_chars = "@%#*+=-:. "; // More chars for finer details
+    // let ascii_chars = "@%#*+=-:. "; // More chars for finer details
+    let ascii_chars = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ";
     let mut ascii_art = String::new();
 
     for i in 0..resized.rows() {
